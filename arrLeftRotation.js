@@ -12,4 +12,17 @@ function arrRotation(a, b) {
 	When completed return or console.log the new array
 
 */
+
+	var arr = a;
+
+	for(var i = 0; i < b; i++) {
+		var newArr = arr.shift();
+
+		arr.push(newArr);
+	}
+
+	console.log(arr);
+
 }
+
+arrRotation([1,2,3,4,5], 2);
