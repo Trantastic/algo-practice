@@ -4,7 +4,12 @@
 function arrRotation(a, b) {
 /*
 
-	
+	Assign a variable to hold the given array
+
+	In a for loop where i < b
+		Use .shift() to take first element and .push() to end of array
+
+	When completed return or console.log the new array
 
 */
 }
