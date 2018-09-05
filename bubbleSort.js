@@ -6,5 +6,15 @@
 */
 
 function bubbleSort(arr) {
-	
+	var sortedArr = arr;
+	var swapNum = 0;
+
+	for(var i = 0; i < arr.length; i++) {
+		for(var x = 0; x < (arr.length - 1); x++) {
+			if(arr[x] > arr[x + 1]) {
+				arr[x + 1] = arr[x];
+				swapNum++;
+			}
+		}
+	}
 }
