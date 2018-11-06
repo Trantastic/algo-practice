@@ -1,7 +1,6 @@
 # algo-practice
 This repo holds my practice algorithm problems and notes from studying.
 
-_Problems are currently from the ones I solve on www.hackerrank.com_
 
 ## Big O Notes
 Big O notation - Describes the time/space complexity and how fast a specific algorithm runs in worse-case scenario.
